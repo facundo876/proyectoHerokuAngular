@@ -1,0 +1,41 @@
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <input type="number" class="form-control" placeholder="Edad Uno" [(ngModel)]="edadUno">
+                        <br>
+                        <input type="number" class="form-control" placeholder="Edad Dos" [(ngModel)]="edadDos">
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button" (click)="SumarEdades()">Sumar</button>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control" readonly [(ngModel)]="resultadoSuma"><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button" (click)="PromedioEdades()">Promedio</button>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" readonly class="form-control" [(ngModel)]="promedioEdades">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+        </div>
+    </div>
+</div>

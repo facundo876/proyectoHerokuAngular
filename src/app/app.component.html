@@ -1,12 +1,3 @@
-<h2>{{myUsuario.nombre +" " + myUsuario.apellido + " 4°B"}}</h2><h2></h2>
-<h2>{{edadUno}}</h2>
-<h2>{{edadDos}}</h2>
+<app-navbar></app-navbar>
 
-<label for="">Edad Uno </label>
-<input type="text" [(ngModel)]="edadUno"><br>
-<label for="">Edad Uno </label>
-<input type="text" [(ngModel)]="edadDos"><br><br>
-<button (click)="SumarEdades()">Sumar</button>
-<input type="text" [(ngModel)]="resultadoSuma"><br>
-<button (click)="PromedioEdades()">Promedio</button>
-<input type="text" [(ngModel)]="promedioEdades">
+<router-outlet></router-outlet>
