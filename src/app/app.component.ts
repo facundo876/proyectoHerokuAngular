@@ -13,7 +13,7 @@ export class AppComponent {
   myUsuario:Usuarios;
 
   constructor() {
-    this.myUsuario = new Usuarios();
+    this.myUsuario = new Usuarios("Facundo", "Arce");
     
   }
   edadUno = "";

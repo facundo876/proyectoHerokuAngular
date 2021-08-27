@@ -1,8 +1,10 @@
 export class Usuarios {
  
     nombre:string;
-    constructor() {
-        this.nombre = "Juan";
+    apellido:string;
+    constructor(nombre:string, apellido:string) {
+        this.nombre = nombre;
+        this.apellido = apellido;
         
     }
 }
